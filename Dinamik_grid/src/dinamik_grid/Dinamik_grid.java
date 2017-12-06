@@ -5,7 +5,7 @@
  */
 package dinamik_grid;
 
-import com.toedter.calendar.JCalendar;
+
 import com.toedter.calendar.JMonthChooser;
 import com.toedter.calendar.JYearChooser;
 import java.awt.BorderLayout;
@@ -22,7 +22,6 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
-import jdk.nashorn.internal.ir.ContinueNode;
 
 /**
  *
@@ -37,6 +36,7 @@ public class Dinamik_grid extends JFrame implements ActionListener {
     JMonthChooser months_chooser;
     JYearChooser year_chooser;
     int selected_month,selected_year;
+    
    
     String total_room_count;
 
